@@ -1,0 +1,22 @@
+#navbar,#footer{
+    background-color: #ebedf0;
+}
+#self-image{
+    width: 300px;
+}
+.bucket-f{
+    display: flex;
+    flex-direction: row;
+}
+.bucket-g{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.c-description{
+    background-color: white;
+    color: black;
+}
+.r-e-description{
+    margin-top: 0px;
+}
