@@ -4,81 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+    <!-- StyleSheet + Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./resources/css/style.css">
-    <title>Cole-Garvey</title>
+    <title>Cole R. Garvey</title>
 </head>
-<body class="bg-light-subtle">
+<body class="background">
 
-    <nav id="navbar" class="navbar navbar-expand-sm bg-secondary shadow p-3 mb-5 bg-body-tertiary rounded">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./">Home</a>
-        
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><img src="" alt=""></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./views/hobbies">Hobbies</a>
-                  </li>
-                  
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./views/projects">Projects</a>
-                  </li>
+<!-- Page links -->
+<div id="pageHeading" class="heading-section flexSection-lr">
+  <div class="set-flex">
+    <a id="pageBrand" class="jetbrains-mono- lnk" href="./index.html"><h3>Cole R. Garvey</h3></a>
+  </div>
 
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./views/resume">Resume</a>
-                  </li>
-              
-              <!-- <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li> -->
-            </ul>
-          </div>
+  
+  <div class="set-flex jetbrains-mono-">
+    <ul class="nav nav-underline justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link lnk" href="./views/aboutme.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="nav-link lnk" data-bs-toggle="dropdown" role="button" data-bs-auto-close="true" aria-expanded="false" href="">
+            Projects</a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#programming">Programming</a></li>
+            <li><a class="dropdown-item" href="#techcomm">Tech Comm & Design</a></li>
+          </ul>
         </div>
-      </nav>
-    
-    <div class="bucket-f">
-      <div class="container">
-        <img id="self-image" class="img-fluid" src="./resources/img/ultra1.jpg" alt="">
-      </div>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lnk disabled" href="./views/blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lnk" href="./views/resume.html">Resume</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li> -->
+      
+    </ul>
+  </div>
 
-      <div class="container-fluid">
-        <h1>Welcome!</h1>
-          <p id="self-desc">
-              I am currently attending the University of Colorado - Boulder as an undergraduate student.  Pursuing a bachelors degree in Computer Science within CU's College of 
-              Engineering and Applied Science, the top-ranked engineering school in Colorado, as well as a minor in Data Science within CU's College of Media, Communication and Information!
-              <br><br>
-              I love to be active and live an active lifestyle.  I love going to the gym, it has to be one of my favorite activities/hobby that I do daily.  I love being outside when the weather 
-              is warm and engage in all sorts of activities like hiking, running, swimming, and yard games.  When the weather gets cold I like to stay inside a little more, aside from taking 
-              trips into the mountains to go snowboarding on the weekends!
-              <br><br>
-              Since I was a kid, I have always had the desire to build something.  I fell in love with the feeling you get when you fix something, when you put all the pieces together and 
-              build something that looks nothing like what you started with.  I still have that want, that passion to create something that not only I could use.  But for others to use, now and 
-              in the future.  
-          </p>
-      </div>
+</div>
+
+<!-- Welcome section -->
+<div class="flexSection-lr container">
+
+  <div class="set-flex container">
+    <img class="self-img img-fluid" src="./resources/img/ultra1.jpg" alt="">
+  </div>
+
+  <div class="flexSection-tb set-flex">
+    <div class="set-flex">
+
+      <h1>Welcome!</h1>
+
+      <p>
+        I am currently attending the University of Colorado - Boulder as an undergraduate student.  Pursuing a bachelors degree in Computer Science within CU's College of 
+        Engineering and Applied Science, the top-ranked engineering school in Colorado, as well as a minor in Data Science within CU's College of Media, Communication and Information!
+        <br><br>
+        I love to be active and live an active lifestyle.  I love going to the gym, it has to be one of my favorite activities/hobby that I do daily.  I love being outside when the weather 
+        is warm and engage in all sorts of activities like hiking, running, swimming, and yard games.  When the weather gets cold I like to stay inside a little more, aside from taking 
+        trips into the mountains to go snowboarding on the weekends!
+        <br><br>
+        <!-- Since I was a kid, I have always had the desire to build something.  I fell in love with the feeling you get when you fix something, when you put all the pieces together and 
+        build something that looks nothing like what you started with.  I still have that want, that passion to create something that not only I could use.  But for others to use, now and 
+        in the future.   -->
+    </p>
     </div>
 
-    <div class="container-fluid bg-secondary-subtle ">
-        <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Cole Garvey </span>
-          </div>
-      
-          <ul class="nav col-md-4 list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="https://github.com/colegarvey"><img src="./resources/svg/github.svg" alt=""></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/cole-garvey-823333210"><img src="./resources/svg/linkedin.svg" alt=""></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/_colerdg"><img src="./resources/svg/instagram.svg" alt=""></a></li>
-          </ul>
-        </footer>
+  </div>
+</div>
+
+<!-- Project Section Heading - PROGRAMMING -->
+<div id="programming" class="heading-section jetbrains-mono- p-5">
+  <h3>Programming . . .</h3>
+</div>
+
+<!-- Project Section 1 -->
+<div class="sub-section text-bg-light flexSection-lr container">
+  <div class="set-flex">
+    <img class="project-img-l container img-fluid" src="./resources/img/_2293.jpg" alt="">
+  </div>
+
+  <div class="set-flex">
+    <h4>Project Title </h4>
+    <hr>
+    <p>description of project goes here</p>
+  </div>
+  
+</div>
+
+<!-- Project Section 2 -->
+<div class="sub-section flexSection-lr container">
+  <div class="set-flex">
+    <h4>Project Title </h4>
+    <hr>
+    <p>description of project goes here</p>
+  </div>
+
+  <div class="set-flex">
+    <img class="project-img-r container img-fluid" src="./resources/img/_2293.jpg" alt="">
+  </div>
+
+</div>
+
+<!-- Project Section Heading - Technical Communication & Design -->
+<div id="techcomm" class="heading-section jetbrains-mono- p-5">
+  <h3>Technical Communication & Design . . .</h3>
+</div>
+
+<!-- Project Section 3 -->
+<div class="sub-section text-bg-light flexSection-lr container">
+  <div class="set-flex">
+    <img class="project-img-l container img-fluid" src="./resources/img/_2293.jpg" alt="">
+  </div>
+
+  <div class="set-flex">
+    <h4>Project Title </h4>
+    <hr>
+    <p>description of project goes here</p>
+  </div>
+  
+</div>
+
+<!-- Footer -->
+<div class="container-fluid text-bg-light">
+    <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Cole Garvey </span>
       </div>
+  
+      <ul class="nav col-md-4 list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="https://github.com/colegarvey"><img src="./resources/svg/github.svg" alt=""></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/cole-garvey-823333210"><img src="./resources/svg/linkedin.svg" alt=""></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/_colerdg"><img src="./resources/svg/instagram.svg" alt=""></a></li>
+      </ul>
+    </footer>
+</div>
         
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

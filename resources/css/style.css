@@ -1,10 +1,51 @@
-
-#self-image{
-    width: 300px;
+.jetbrains-mono-{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
 }
-.bucket-f{
+.background{
+    position: relative;
+    background-attachment: fixed;
+    background-image: url("../img/_189959-643.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.heading-section{
+    margin: 30px;
+}
+.lnk{
+    color: black;
+    text-decoration: none;
+}
+.sub-section{
+    /* text-bg-light */
+    margin: 30px 75px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.set-flex{
+    flex: 1;
+}
+.self-img{
+    width: auto;
+    max-width: 300px;
+}
+.flexSection-lr{
     display: flex;
     flex-direction: row;
+}
+.flexSection-tb{
+    display: flex;
+    flex-direction: column;
+}
+.resume-heading{
+    font-size: x-large;
+    
+}
+.resume-subtext{
+    font-weight: 400;
+    list-style-type: none;
 }
 .bucket-g{
     display: grid;
@@ -15,7 +56,13 @@
     background-color: white;
     color: black;
 }
-.carousel-img{
-    width: 30rem;
-    
+.project-img-l{
+    width: auto;
+    max-width: 450px;
+    float: left;
+}
+.project-img-r{
+    width: auto;
+    max-width: 450px;
+    float: right;
 }
