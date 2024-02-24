@@ -7,16 +7,15 @@
     text-decoration: none;
 }
 .sub-section{
-    /* background-color: #7f7f7f; */
+    /* text-bg-light */
     margin: 30px 75px;
     padding: 15px;
     border-radius: 10px;
-    
 }
 .set-flex{
     flex: 1;
 }
-#self-image{
+.self-img{
     width: auto;
     max-width: 300px;
 }
@@ -45,7 +44,13 @@
     background-color: white;
     color: black;
 }
-.project-img{
+.project-img-l{
     width: auto;
     max-width: 450px;
+    float: left;
+}
+.project-img-r{
+    width: auto;
+    max-width: 450px;
+    float: right;
 }
