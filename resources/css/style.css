@@ -1,4 +1,16 @@
-
+.jetbrains-mono-{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.background{
+    position: relative;
+    background-attachment: fixed;
+    background-image: url("../img/_189959-643.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
 .heading-section{
     margin: 30px;
 }
