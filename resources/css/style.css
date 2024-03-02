@@ -23,7 +23,9 @@
 }
 .sub-section{
     /* text-bg-light */
-    margin: 30px 75px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
     border-radius: 10px;
 }
