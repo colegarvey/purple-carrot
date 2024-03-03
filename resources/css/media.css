@@ -22,8 +22,16 @@
         font-size: small;
         
     }
+    .landing-msg{
+        display: flex; 
+        flex: 1; 
+        height: 70vh; 
+        justify-content: center; 
+        align-items: center;
+        margin: auto;
+    }
     .background{
-        background-image: url("");
+        background-image: url("../img/abstract-halftone-background.avif");
     }
     .self-img,.project-img{
         max-width: 250px;

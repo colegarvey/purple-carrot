@@ -7,12 +7,21 @@
 .background{
     position: relative;
     background-attachment: fixed;
-    background-image: url("../img/bkg.avif");
+    background-image: url("../img/abstract-halftone-background.avif");
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
 .heading-section{
     margin: 30px;
+}
+.landing-msg{
+    display: flex; 
+    flex: 1; 
+    height: 70vh; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 7rem;
+    margin-left: 7rem;
 }
 .lnk{
     color: black;
@@ -28,6 +37,7 @@
     margin-right: auto;
     padding: 15px;
     border-radius: 10px;
+    width: fit-content;
 }
 .set-flex{
     flex: 3;
@@ -40,6 +50,7 @@
 .flexSection-lr{
     display: flex;
     flex-direction: row;
+    flex: 3;
 }
 .flexSection-tb{
     display: flex;
